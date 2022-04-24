@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(182, 238, 208, 0.537);
+}
+.container{
+    align-items: center;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.error_paragraph{
+    font-size: xx-small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: royalblue;
+    font-style: oblique;
+}
+.card{
+    box-shadow:  1px 2px 1px 2px #adadadb1;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2%;
+    width: max-content;
+}
+input,select{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+h1{
+    color: rgb(49, 230, 4);
+    font-family: 'San Francisco', Helvetica, Arial, san-serif;;
+    letter-spacing: 10px;
+}
+h2{
+    color: rgba(69, 156, 255, 0.859);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+}
+button{
+    background-color:transparent;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    box-shadow:  1px 1.2px 1px 1.2px #adadadb1;
+}
+
+button:hover{
+    box-shadow:  1px 1.1px #adadad;
+}
+button:active{
+
+    box-shadow: 0 0.1px rgba(127, 123, 123, 0.626);
+    transform: translateY(1px);
+}
